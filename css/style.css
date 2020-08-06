@@ -12,11 +12,37 @@ main {
 #home {
     border-bottom: 1px solid #38444D;
 }
-#home h3 {
-    padding: 15px;
-}
-#home h3 a {
-    display: block;
-    color: #ffffff;
+#home a {
     text-decoration: none;
+}
+#home h3{
+    padding: 15px;
+    color: #ffffff;
+}
+.tweet-area {
+    border-bottom: 1px solid #38444D;
+    padding: 5px 15px;
+}
+.text-input {
+    display: flex;
+}
+.tweet-area a {
+    display: block;
+    border-radius: 9999px;
+    margin-right: 10px;
+}
+.tweet-area img {
+    border-radius: 9999px;
+    height: 49px;
+}
+.tweet-area input[type="text"] {
+    background-color: #192734;
+    border: none;
+    padding: 0;
+    width: 100%;
+    font-size: 20px;
+    color: #ffffff;
+}
+.tweet-area input::placeholder {
+    font-size: 20px;
 }

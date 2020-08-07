@@ -20,7 +20,7 @@ main {
     color: #ffffff;
 }
 .tweet-area {
-    border-bottom: 1px solid #38444D;
+    border-bottom: 10px solid #38444D;
     padding: 5px 15px;
 }
 .text-input {
@@ -42,7 +42,23 @@ main {
     width: 100%;
     font-size: 20px;
     color: #ffffff;
+    padding-left: 5px;
 }
 .tweet-area input::placeholder {
     font-size: 20px;
+}
+.tweet-area button {
+    display: block;
+    margin: 0 0 0 auto;
+    margin-top: 10px;
+}
+.tweet-area button.tweet-btn {
+    background-color: #1DA1FD;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
 }

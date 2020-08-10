@@ -93,8 +93,10 @@ main {
 }
 .user-id {
     color: #8899A6;
+    font-size: 15px;
 }
 .tweet-text {
     margin-top: 20px;
     color: #ffffff;
+    font-size: 15px;
 }
